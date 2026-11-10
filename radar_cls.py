@@ -5,7 +5,7 @@ class Radar:
         self.range_guard = 2
         self.doppler_guard = 1
         self.range_training = 5
-        self.doppler_training = 2
+        self.doppler_training = 4
         self.pfa = 0.001
 
 
