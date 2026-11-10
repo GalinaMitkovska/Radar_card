@@ -11,8 +11,8 @@ def main():
             1j * np.random.randn(32, 32)
     )
 
-    matrix[9, 12] += 4 + 4j
-    matrix[15, 20] += 6 + 6j
+    matrix[9, 12] = 3 + 3j
+    matrix[15, 20] = 5 + 5j
 
     radar = Radar()
     detections = radar.radar_detector(matrix)

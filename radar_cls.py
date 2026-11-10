@@ -4,7 +4,7 @@ class Radar:
     def __init__(self):
         self.range_guard = 2
         self.doppler_guard = 1
-        self.range_training = 3
+        self.range_training = 5
         self.doppler_training = 2
         self.pfa = 0.001
 
